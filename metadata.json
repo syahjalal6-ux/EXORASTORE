@@ -1,0 +1,6 @@
+{
+  "name": "Exora Shop",
+  "description": "Platform all-in-one untuk membuat toko online sendiri dalam hitungan menit.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
