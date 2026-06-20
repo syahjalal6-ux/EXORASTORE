@@ -1,0 +1,39 @@
+{
+  "name": "Exora Shop Platform",
+  "short_name": "Exora Shop",
+  "description": "Platform all-in-one untuk membuat & mengelola toko online Anda sendiri.",
+  "start_url": "/?pwa=true",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0c",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Explore Toko",
+      "short_name": "Explore",
+      "url": "/?view=explore&utm_source=pwa_shortcut",
+      "description": "Temukan toko-toko unik terbaik di Exora"
+    },
+    {
+      "name": "Dashboard Penjual",
+      "short_name": "Dashboard",
+      "url": "/?view=seller-dashboard&utm_source=pwa_shortcut",
+      "description": "Kelola transaksi dan produk toko Anda"
+    }
+  ]
+}

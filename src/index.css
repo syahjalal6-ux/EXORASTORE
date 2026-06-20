@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, system-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-blue-50: #EFF6FF;
+  --color-blue-100: #DBEAFE;
+  --color-blue-400: #60A5FA;
+  --color-blue-500: #0052FF;
+  --color-blue-600: #0045D9;
+  --color-blue-700: #0036A8;
+  
+  --color-zinc-50: #F8FAFC;
+  --color-zinc-100: #F1F5F9;
+  --color-zinc-150: #F1F5F9;
+  --color-zinc-200: #E2E8F0;
+  --color-zinc-250: #E2E8F0;
+  --color-zinc-300: #CBD5E1;
+  --color-zinc-350: #CBD5E1;
+  --color-zinc-400: #94A3B8;
+  --color-zinc-500: #64748B;
+  --color-zinc-600: #475569;
+  --color-zinc-650: #475569;
+  --color-zinc-700: #334155;
+  --color-zinc-800: #1E293B;
+  --color-zinc-900: #0F172A;
+  --color-zinc-950: #0F172A;
+}
+
+body {
+  background-color: #F8FAFC;
+  font-family: var(--font-sans);
+  color: #0F172A;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar helpers for maximum fluid layout */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
